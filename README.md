@@ -4,11 +4,11 @@
 <br>
 
 ## No 'Access-Control-Allow-Origin'
-**Текст ошибки:**
+**Текст ошибки:**\
 `Access to XMLHttpRequest at 'https://social-network.samuraijs.com/api/1.0/status' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
 Это означает что в у вас не правильно настроены заголовки запроса<br>
 
-**Совет:**
+**Совет:**\
 Проверить свойство headers. [Дока самурайского API](https://docs.google.com/document/d/1ZSXmTzkgq_Kj1VbWuq8fTv_DPD95GFDvPZgqFeIYGoM/edit).
 Почитать про CORS можно [тут](https://developer.mozilla.org/ru/docs/Web/HTTP/CORS). Так же можно установить в браузер расширение no cors отключающее блокировку.
 <br><br>
