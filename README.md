@@ -6,6 +6,7 @@
 ## No 'Access-Control-Allow-Origin'
 **Текст ошибки:**\
 `Access to XMLHttpRequest at 'https://social-network.samuraijs.com/api/1.0/status' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
+<br>
 Это означает что в у вас не правильно настроены заголовки запроса<br>
 
 **Совет:**\
@@ -14,7 +15,8 @@
 <br><br>
 
 ## Cannot read property 'название свойства' of undefined
-**Текст ошибки:** `Cannot read property 'dialogs' of undefined`</pre>`
+**Текст ошибки:**\
+`Cannot read property 'dialogs' of undefined`</pre>`
 
 **Пример:** <pre>const dialogs = state.dialogsPage.dialogs</pre>
 
