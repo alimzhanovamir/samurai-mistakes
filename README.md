@@ -5,8 +5,8 @@
 
 ## No 'Access-Control-Allow-Origin'
 **Текст ошибки:**\
-`Access to XMLHttpRequest at 'https://social-network.samuraijs.com/api/1.0/status' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
-\
+```Access to XMLHttpRequest at 'https://social-network.samuraijs.com/api/1.0/status' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.```\
+
 **Что это значит:**\
 Это означает что в у вас не правильно настроены заголовки запроса<br>
 
