@@ -12,7 +12,7 @@
 <br><br>
 
 ## Cannot read property 'название свойства' of undefined
-**Текст ошибки:** <pre>Cannot read property 'dialogs' of undefined</pre>
+**Текст ошибки:** `Cannot read property 'dialogs' of undefined`</pre>`
 
 **Пример:** <pre>const dialogs = state.dialogsPage.dialogs</pre>
 
@@ -21,7 +21,7 @@
 <br><br>
 
 ## Undefined is not a function
-**Текст ошибки:** <pre>undefined is not a function</pre>
+**Текст ошибки:** `undefined is not a function`
 
 **Пример:** <pre>props.setChecked(value)</pre>
 
