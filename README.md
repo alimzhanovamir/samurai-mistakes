@@ -6,7 +6,8 @@
 ## No 'Access-Control-Allow-Origin'
 **Текст ошибки:**\
 `Access to XMLHttpRequest at 'https://social-network.samuraijs.com/api/1.0/status' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.`
-<br>
+\\
+**Что это значит:**\
 Это означает что в у вас не правильно настроены заголовки запроса<br>
 
 **Совет:**\
@@ -16,11 +17,13 @@
 
 ## Cannot read property 'название свойства' of undefined
 **Текст ошибки:**\
-`Cannot read property 'dialogs' of undefined`</pre>`
+`Cannot read property 'dialogs' of undefined`
 
 **Пример:** <pre>const dialogs = state.dialogsPage.dialogs</pre>
 
+**Что это значит:**\
 Это означает что в `state` или `dialogsPage` пришло значение `undefined`. Независимо какое свойство было указано в ошибке (`map`, `length` и т.д.).<br><br>
+
 **Совет:** Проверить переданные данные (`props`). Начать проверку с родительского компонента.ю если данные пришли с него.
 <br><br>
 
@@ -29,5 +32,7 @@
 
 **Пример:** <pre>props.setChecked(value)</pre>
 
+**Что это значит:**\
 Это означает что пришло значение не являющееся функцией, например `undefined`.<br><br>
+
 **Совет:** Проверить переданные данные (`props`). Начать проверку с родительского компонента.ю если данные пришли с него.
